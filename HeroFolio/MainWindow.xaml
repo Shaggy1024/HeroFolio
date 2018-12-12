@@ -7,6 +7,101 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid Margin="10,10,10,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Menu Grid.Row="0" Grid.Column="0">
+                <MenuItem Header="File">
+                    <MenuItem Header="New Character"/>
+                    <MenuItem Header="Open"/>
+                    <MenuItem Header="Save">
+                        <MenuItem Header="Save"/>
+                        <MenuItem Header="Save As"/>
+                    </MenuItem>
+                    <MenuItem Header="Exit"/>
+                </MenuItem>
+            </Menu>
+            <TextBlock Grid.Row="1" Name="ChrName" HorizontalAlignment="Left" Text="Character Name" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline"/>
+            <Grid Grid.Row="2" Grid.Column="0" x:Name="abilityGrid" Margin="10,20,10,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ability" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Ability Score" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Ability Mod" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Temp Score" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Temp Mod" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="1" Grid.Column="0" Name="Strength" Text="Strength" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="strAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41" Background="#66FFFFFF"/>
+                <TextBox Grid.Row="1" Grid.Column="2" Name="strAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="1" Grid.Column="3" Name="strTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="1" Grid.Column="4" Name="strTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" Name="Dextarity" Text="Dextarity" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Name="dexAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
+                <TextBox Grid.Row="2" Grid.Column="2" Name="dexAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="2" Grid.Column="3" Name="dexTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="2" Grid.Column="4" Name="dexTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="3" Grid.Column="0" Name="Constitution" Text="Constitution" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Name="conAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
+                <TextBox Grid.Row="3" Grid.Column="2" Name="conAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="3" Grid.Column="3" Name="conTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="3" Grid.Column="4" Name="conTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="4" Grid.Column="0" Name="Wisdom" Text="Wisdom" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="4" Grid.Column="1" Name="wisAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
+                <TextBox Grid.Row="4" Grid.Column="2" Name="wisAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="4" Grid.Column="3" Name="wisTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="4" Grid.Column="4" Name="wisTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="5" Grid.Column="0" Name="Inteligence" Text="Inteligence" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="5" Grid.Column="1" Name="intAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
+                <TextBox Grid.Row="5" Grid.Column="2" Name="intAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="5" Grid.Column="3" Name="intTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="5" Grid.Column="4" Name="intTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="6" Grid.Column="0" Name="Charisma" Text="Charisma" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
+                <TextBox Grid.Row="6" Grid.Column="1" Name="chaAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
+                <TextBox Grid.Row="6" Grid.Column="2" Name="chaAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="6" Grid.Column="3" Name="chaTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="6" Grid.Column="4" Name="chaTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="0" x:Name="attacksGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
