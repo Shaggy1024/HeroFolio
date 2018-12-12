@@ -17,6 +17,7 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Menu Grid.Row="0" Grid.Column="0">
                 <MenuItem Header="File">
