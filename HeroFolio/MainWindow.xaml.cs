@@ -24,5 +24,20 @@ namespace HeroFolio
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click_Exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void MenuItem_Click_Save(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void MenuItem_Click_SaveAs(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
