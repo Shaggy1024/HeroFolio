@@ -92,7 +92,7 @@
                 <TextBox Grid.Row="6" Grid.Column="3" Name="chaTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
                 <TextBox Grid.Row="6" Grid.Column="4" Name="chaTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
             </Grid>
-            <Grid Grid.Row="2" Grid.Column="0" x:Name="attacksGrid">
+            <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" x:Name="attacksGrid">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -103,13 +103,17 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Weapon" HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="DMG"  HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Crit"  HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="DMG Type"  HorizontalAlignment="Center"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Magical Mod"  HorizontalAlignment="Center"/>
             </Grid>
         </Grid>
     </Grid>
