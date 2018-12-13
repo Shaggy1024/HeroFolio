@@ -37,6 +37,11 @@
                     <MenuItem Header="Race"/>
                     <MenuItem Header="Skills"/>
                 </MenuItem>
+                <MenuItem Header="View">
+                    <MenuItem Header="Text Size"/>
+                    <MenuItem Header="Resolution"/>
+                    <MenuItem Header="Character sheet view"/>
+                </MenuItem>
             </Menu>
             <TextBlock Grid.Row="1" Name="ChrName" HorizontalAlignment="Left" Text="Character Name" TextWrapping="Wrap" VerticalAlignment="Top" TextDecorations="Underline"/>
             <Grid Grid.Row="2" Grid.Column="0" x:Name="abilityGrid" Margin="10,20,10,20">
