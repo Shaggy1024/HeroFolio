@@ -61,11 +61,11 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ability" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-                <TextBlock Grid.Row="0" Grid.Column="1" Text="Ability Score" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-                <TextBlock Grid.Row="0" Grid.Column="2" Text="Ability Mod" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-                <TextBlock Grid.Row="0" Grid.Column="3" Text="Temp Score" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-                <TextBlock Grid.Row="0" Grid.Column="4" Text="Temp Mod" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Ability" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Ability Score" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Ability Mod" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Temp Score" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Temp Mod" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Name="Strength" Text="Strength" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
                 <TextBox Grid.Row="1" Grid.Column="1" Name="strAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" Width="41"/>
                 <TextBox Grid.Row="1" Grid.Column="2" Name="strAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
