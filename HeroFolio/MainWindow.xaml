@@ -97,7 +97,7 @@
                 <TextBox Grid.Row="6" Grid.Column="3" Name="chaTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
                 <TextBox Grid.Row="6" Grid.Column="4" Name="chaTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
             </Grid>
-            <Grid Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" x:Name="attacksGrid">
+            <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="attacksGrid">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
