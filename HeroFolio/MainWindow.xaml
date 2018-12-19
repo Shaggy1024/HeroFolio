@@ -30,7 +30,7 @@
                     <MenuItem Header="Exit" Click="MenuItem_Click_Exit"/>
                 </MenuItem>
                 <MenuItem Header="Edit">
-                    <MenuItem Header="Abilities" Click="MenuItem_Click"/>
+                    <MenuItem Header="Abilities" Click="MenuItem_Click_Abilities"/>
                     <MenuItem Header="Class"/>
                     <MenuItem Header="Equipment">
                         <MenuItem Header="Add"/>
