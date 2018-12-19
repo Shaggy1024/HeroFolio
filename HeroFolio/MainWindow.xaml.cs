@@ -142,7 +142,7 @@ namespace HeroFolio
             else
                 ability = ability - 1;
 
-            for(int i = 10; i < ability; i -= 2)
+            for(int i = 10; i > ability; i -= 2)
             {
                 mod--;
             }
