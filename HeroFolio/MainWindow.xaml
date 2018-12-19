@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Menu Grid.Row="0" Grid.Column="0">
+            <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
                 <MenuItem Header="File">
                     <MenuItem Header="New Character"/>
                     <MenuItem Header="Open"/>
