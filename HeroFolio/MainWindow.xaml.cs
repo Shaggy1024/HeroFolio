@@ -100,7 +100,7 @@ namespace HeroFolio
             return mod;
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void MenuItem_Click_Abilities(object sender, RoutedEventArgs e)
         {
             AbilityEdit.Visibility = Visibility.Visible;
             strAbility.IsReadOnly = false;
