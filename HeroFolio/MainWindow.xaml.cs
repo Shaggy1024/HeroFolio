@@ -121,12 +121,9 @@ namespace HeroFolio
             int mod = 0;
             ability = ability - 10;
             //accounts for ability being odd(id. 11 or 13 ect.)
-            if (ability % 2 == 0)
-                ability = ability;
-            else
-                ability = ability - 1;
+            ability = (ability % 2 == 0) ? ability : ability - 1;
 
-            for(int i=0; i < ability; i += 2)
+            for (int i=0; i < ability; i += 2)
             {
                 mod++;
             }
@@ -137,10 +134,7 @@ namespace HeroFolio
         {
             int mod = 0;
             //accounts for ability being odd(id. 9 or 7 ect.)
-            if (ability % 2 == 0)
-                ability = ability;
-            else
-                ability = ability - 1;
+            ability = (ability % 2 == 0) ? ability : ability - 1;
 
             for(int i = 10; i > ability; i -= 2)
             {
