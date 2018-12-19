@@ -39,5 +39,47 @@ namespace HeroFolio
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int strAbility1;
+            int strAbilityMod1=0;
+
+            strAbility1 = int.Parse(strAbility.Text);
+            if (strAbility1 == 10 || strAbility1 == 11)
+            {
+                strAbilityMod1 = 1;
+                strAbilityMod.Text = strAbilityMod1.ToString();
+            }
+            else if (strAbility1 == 12 || strAbility1 == 13)
+            {
+                strAbilityMod1 = 2;
+                strAbilityMod.Text = strAbilityMod1.ToString();
+            }
+            else if (strAbility1 == 14 || strAbility1 == 15)
+            {
+                strAbilityMod1 = 3;
+                strAbilityMod.Text = strAbilityMod1.ToString();
+            }
+            else if (strAbility1 == 16 || strAbility1 == 17)
+            {
+                strAbilityMod1 = 4;
+                strAbilityMod.Text = strAbilityMod1.ToString();
+            }
+            else if (strAbility1 == 18 || strAbility1 == 19)
+            {
+                strAbilityMod1 = 5;
+                strAbilityMod.Text = strAbilityMod1.ToString();
+            }
+            AbilityEdit.Visibility=Visibility.Hidden;
+            strAbility.IsReadOnly = true;
+            return;
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            AbilityEdit.Visibility = Visibility.Visible;
+            strAbility.IsReadOnly = false;
+        }
     }
 }
