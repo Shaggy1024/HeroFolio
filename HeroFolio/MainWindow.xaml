@@ -118,10 +118,10 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="HP" HorizontalAlignment="Center"/>
                 <TextBox Grid.Row="1" Grid.Column="0" Text="0" IsReadOnly="True"/>
-                <TextBlock Grid.Row="0" Grid.Column="1" Text="Wounds/Current HP" HorizontalAlignment="Center" TextWrapping="Wrap"/>
-                <TextBox Grid.Row="1" Grid.Column="1" Text="0" IsReadOnly="False"/>
-                <TextBlock Grid.Row="0" Grid.Column="2" Text="Initiative" HorizontalAlignment="Center"/>
-                <TextBox Grid.Row="1" Grid.Column="2" Text="0" IsReadOnly="True"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Wounds/Current HP" HorizontalAlignment="Center" TextWrapping="Wrap"/>
+                <TextBox Grid.Row="1" Grid.Column="2" Text="0" IsReadOnly="False"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Initiative" HorizontalAlignment="Center"/>
+                <TextBox Grid.Row="1" Grid.Column="4" Text="0" IsReadOnly="True"/>
             </Grid>
             <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="attacksGrid">
                 <Grid.RowDefinitions>
