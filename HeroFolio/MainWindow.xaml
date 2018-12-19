@@ -32,7 +32,10 @@
                 <MenuItem Header="Edit">
                     <MenuItem Header="Abilities" Click="MenuItem_Click"/>
                     <MenuItem Header="Class"/>
-                    <MenuItem Header="Equipment"/>
+                    <MenuItem Header="Equipment">
+                        <MenuItem Header="Add"/>
+                        <MenuItem Header="Edit"/>
+                    </MenuItem>
                     <MenuItem Header="Feats"/>
                     <MenuItem Header="Race"/>
                     <MenuItem Header="Skills"/>
