@@ -70,35 +70,35 @@
                 <TextBlock Grid.Row="0" Grid.Column="3" Text="Temp Score" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
                 <TextBlock Grid.Row="0" Grid.Column="4" Text="Temp Mod" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap"/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Name="Strength" Text="Strength" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="1" Grid.Column="1" Name="strAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="1" Grid.Column="2" Name="strAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="1" Grid.Column="3" Name="strTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="1" Grid.Column="4" Name="strTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="strAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="1" Grid.Column="2" Name="strAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="1" Grid.Column="3" Name="strTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="1" Grid.Column="4" Name="strTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
                 <TextBlock Grid.Row="2" Grid.Column="0" Name="Dextarity" Text="Dextarity" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="2" Grid.Column="1" Name="dexAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="2" Grid.Column="2" Name="dexAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="2" Grid.Column="3" Name="dexTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="2" Grid.Column="4" Name="dexTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Name="dexAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="2" Grid.Column="2" Name="dexAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="2" Grid.Column="3" Name="dexTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="2" Grid.Column="4" Name="dexTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
                 <TextBlock Grid.Row="3" Grid.Column="0" Name="Constitution" Text="Constitution" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="3" Grid.Column="1" Name="conAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="3" Grid.Column="2" Name="conAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="3" Grid.Column="3" Name="conTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="3" Grid.Column="4" Name="conTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Name="conAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="3" Grid.Column="2" Name="conAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="3" Grid.Column="3" Name="conTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="3" Grid.Column="4" Name="conTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
                 <TextBlock Grid.Row="4" Grid.Column="0" Name="Wisdom" Text="Wisdom" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="4" Grid.Column="1" Name="wisAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="4" Grid.Column="2" Name="wisAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="4" Grid.Column="3" Name="wisTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="4" Grid.Column="4" Name="wisTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="4" Grid.Column="1" Name="wisAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="4" Grid.Column="2" Name="wisAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="4" Grid.Column="3" Name="wisTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="4" Grid.Column="4" Name="wisTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
                 <TextBlock Grid.Row="5" Grid.Column="0" Name="Inteligence" Text="Inteligence" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="5" Grid.Column="1" Name="intAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="5" Grid.Column="2" Name="intAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="5" Grid.Column="3" Name="intTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="5" Grid.Column="4" Name="intTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="5" Grid.Column="1" Name="intAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="5" Grid.Column="2" Name="intAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="5" Grid.Column="3" Name="intTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="5" Grid.Column="4" Name="intTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
                 <TextBlock Grid.Row="6" Grid.Column="0" Name="Charisma" Text="Charisma" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Width="115"/>
-                <TextBox Grid.Row="6" Grid.Column="1" Name="chaAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="6" Grid.Column="2" Name="chaAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
-                <TextBox Grid.Row="6" Grid.Column="3" Name="chaTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False"/>
-                <TextBox Grid.Row="6" Grid.Column="4" Name="chaTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True"/>
+                <TextBox Grid.Row="6" Grid.Column="1" Name="chaAbility" Text="10" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="6" Grid.Column="2" Name="chaAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
+                <TextBox Grid.Row="6" Grid.Column="3" Name="chaTmpAbilityScore" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="False" Width="25"/>
+                <TextBox Grid.Row="6" Grid.Column="4" Name="chaTmpAbilityMod" Text="0" HorizontalAlignment="Center" VerticalAlignment="Top" TextWrapping="Wrap" IsReadOnly="True" Width="25"/>
             </Grid>
             <Button x:Name="AbilityEdit" Content="Apply" HorizontalAlignment="Center" Height="15" Grid.Row="2" Grid.Column="0" VerticalAlignment="Bottom" Width="75" Visibility="Hidden" Click="Button_Click"/>
             <Grid Grid.Row="2" Grid.Column="1" x:Name="extraStats" Margin="10,20,10,20">
